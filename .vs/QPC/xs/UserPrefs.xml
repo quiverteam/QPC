@@ -1,0 +1,39 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="QPC/Parser/Parse.cs">
+    <Files>
+      <File FileName="QPC/Attributes/StringEvalAttribute.cs" Line="6" Column="40" />
+      <File FileName="QPC/Attributes/KeywordAttribute.cs" Line="13" Column="49" />
+      <File FileName="QPC/Attributes/SectionAttribute.cs" Line="9" Column="33" />
+      <File FileName="QPC/IKeyword.cs" Line="9" Column="9" />
+      <File FileName="QPC/ISection.cs" Line="10" Column="1" />
+      <File FileName="QPC/IParserExtension.cs" Line="28" Column="1" />
+      <File FileName="QPC/Parser/ScriptContext.cs" Line="45" Column="6" />
+      <File FileName="QPC/Attributes/GeneratorAttribute.cs" Line="7" Column="52" />
+      <File FileName="QPC/Parser/VPCParser.cs" Line="5" Column="2" />
+      <File FileName="QPC/Parser/CommonStructures.cs" Line="9" Column="25" />
+      <File FileName="QPC/Parser/GeneratorContext.cs" Line="36" Column="47" />
+      <File FileName="QPC/Parser/Parse.cs" Line="5" Column="5" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="QPC" expanded="True">
+            <Node name="QPC" expanded="True">
+              <Node name="Attributes" expanded="True" />
+              <Node name="Parser" expanded="True">
+                <Node name="Parse.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.QPC FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
