@@ -41,6 +41,9 @@
     <Compile Include="Attributes\CommandLineOption.cs" />
     <Compile Include="Parser\GeneratorContext.cs" />
     <Compile Include="Parser\Parse.cs" />
+    <Compile Include="VPC.cs" />
+    <Compile Include="Conditional.cs" />
+    <Compile Include="Tokenize.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Attributes\" />

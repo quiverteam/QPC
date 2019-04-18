@@ -10,6 +10,8 @@ namespace QPC.Parser
     {
         public Dictionary<string, string> Macros;
 
+
+
         public string GetParserType()
         {
             return "vpc";
@@ -30,5 +32,23 @@ namespace QPC.Parser
         {
             return Macros;
         }
+
+        //
+        // Parses the specified VPC script
+        //
+        public void Parse(string file)
+        {
+
+        }
+
+        //
+        // Resolve includes and insert into the specified buffer
+        //
+        private void ResolveIncludes()
+        {
+
+        }
+
+        private void 
     }
 }
