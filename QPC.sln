@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QPC.Launcher", "QPC.Launche
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QPC.Generators", "QPC.Generators\QPC.Generators.csproj", "{6C79A50C-9B6E-4EAC-86A3-32424847870D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QPC.Tests", "QPC.Tests\QPC.Tests.csproj", "{47A4850F-C228-4765-BD45-9FB96B70C83D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{6C79A50C-9B6E-4EAC-86A3-32424847870D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C79A50C-9B6E-4EAC-86A3-32424847870D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C79A50C-9B6E-4EAC-86A3-32424847870D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47A4850F-C228-4765-BD45-9FB96B70C83D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47A4850F-C228-4765-BD45-9FB96B70C83D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47A4850F-C228-4765-BD45-9FB96B70C83D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47A4850F-C228-4765-BD45-9FB96B70C83D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		Policies = $0
@@ -45,6 +51,22 @@ Global
 		$3.scope = text/plain
 		$0.StandardHeader = $4
 		$4.Text = @============================================//\nName: ${FileName}\nPurpose:\nAuthor: ${AuthorName} ${AuthorEmail}\nDate Of Creation: ${Month}/${Day}/${Year} ${Hour}:${Minute}:${Second}\n============================================//
+		$0.DotNetNamingPolicy = $5
+		$5.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$0.TextStylePolicy = $6
+		$6.inheritsSet = null
+		$6.scope = text/x-fsharp
+		$0.FSharpFormattingPolicy = $7
+		$7.DefaultFormat = $8
+		$8.IndentOnTryWith = False
+		$8.ReorderOpenDeclaration = False
+		$8.SpaceAfterComma = True
+		$8.SpaceAfterSemicolon = True
+		$8.SpaceAroundDelimiter = True
+		$8.SpaceBeforeArgument = True
+		$8.SpaceBeforeColon = True
+		$8.__added = 0
+		$7.scope = text/x-fsharp
 		description = @Quiver Project Creator is a project creator inspired by Valve's VPC.\nIt supports project generation for many targets including: Make, NMake, Visual Studio, Visual Studio Code, KDevelop, CodeLite and more.\n
 	EndGlobalSection
 EndGlobal

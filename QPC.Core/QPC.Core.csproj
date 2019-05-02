@@ -2,9 +2,31 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
+    <PackageVersion>0.0.1</PackageVersion>
+    <Authors>Jeremy Lorelli</Authors>
+    <Description>QPC is a replacement for Valve's VPC.</Description>
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
   <ItemGroup>
     <Compile Remove="Class1.cs" />
+    <Compile Remove="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties>
+        <Policies>
+          <StandardHeader IncludeInNewFiles="True" Text="============================================ //&#xA;Name: ${FileName}&#xA;Purpose:&#xA;Author: ${AuthorName} ${AuthorEmail}&#xA;Date Of Creation: ${Month}/${Day}/${Year} ${Hour}:${Minute}:${Second}&#xA;============================================ //" />
+        </Policies>
+      </Properties>
+    </MonoDevelop>
+  </ProjectExtensions>
 </Project>
