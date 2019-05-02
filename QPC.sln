@@ -1,7 +1,13 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QPC", "QPC\QPC.csproj", "{540B4D52-5FEC-48D7-B3DC-C57EA128A80D}"
+Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "QPC.Parser", "QPC.Parser\QPC.Parser.fsproj", "{8D87CFCD-7FD3-4BBD-86D3-D5034562552B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QPC.Core", "QPC.Core\QPC.Core.csproj", "{1E055ADE-CCDF-462B-8304-F9449E7B0D1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QPC.Launcher", "QPC.Launcher\QPC.Launcher.csproj", "{21497DCA-5585-4A11-9744-E03DC2D968FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QPC.Generators", "QPC.Generators\QPC.Generators.csproj", "{6C79A50C-9B6E-4EAC-86A3-32424847870D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,9 +15,36 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{540B4D52-5FEC-48D7-B3DC-C57EA128A80D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{540B4D52-5FEC-48D7-B3DC-C57EA128A80D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{540B4D52-5FEC-48D7-B3DC-C57EA128A80D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{540B4D52-5FEC-48D7-B3DC-C57EA128A80D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D87CFCD-7FD3-4BBD-86D3-D5034562552B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D87CFCD-7FD3-4BBD-86D3-D5034562552B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D87CFCD-7FD3-4BBD-86D3-D5034562552B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D87CFCD-7FD3-4BBD-86D3-D5034562552B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E055ADE-CCDF-462B-8304-F9449E7B0D1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E055ADE-CCDF-462B-8304-F9449E7B0D1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E055ADE-CCDF-462B-8304-F9449E7B0D1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E055ADE-CCDF-462B-8304-F9449E7B0D1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21497DCA-5585-4A11-9744-E03DC2D968FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21497DCA-5585-4A11-9744-E03DC2D968FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21497DCA-5585-4A11-9744-E03DC2D968FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21497DCA-5585-4A11-9744-E03DC2D968FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C79A50C-9B6E-4EAC-86A3-32424847870D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C79A50C-9B6E-4EAC-86A3-32424847870D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C79A50C-9B6E-4EAC-86A3-32424847870D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C79A50C-9B6E-4EAC-86A3-32424847870D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.scope = text/x-csharp
+		$1.FileWidth = 80
+		$0.CSharpFormattingPolicy = $2
+		$2.scope = text/x-csharp
+		$0.TextStylePolicy = $3
+		$3.FileWidth = 80
+		$3.TabsToSpaces = True
+		$3.scope = text/plain
+		$0.StandardHeader = $4
+		$4.Text = @============================================//\nName: ${FileName}\nPurpose:\nAuthor: ${AuthorName} ${AuthorEmail}\nDate Of Creation: ${Month}/${Day}/${Year} ${Hour}:${Minute}:${Second}\n============================================//
+		description = @Quiver Project Creator is a project creator inspired by Valve's VPC.\nIt supports project generation for many targets including: Make, NMake, Visual Studio, Visual Studio Code, KDevelop, CodeLite and more.\n
 	EndGlobalSection
 EndGlobal

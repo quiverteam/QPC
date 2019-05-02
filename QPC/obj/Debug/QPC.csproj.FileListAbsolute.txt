@@ -1,2 +1,0 @@
-/home/jeremy/Projects/QPC/QPC/obj/Debug/QPC.csprojAssemblyReference.cache
-/home/jeremy/Projects/QPC/QPC/obj/Debug/QPC.csproj.CoreCompileInputs.cache
