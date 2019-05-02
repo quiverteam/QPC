@@ -1,0 +1,11 @@
+.vs/
+bin/
+obj/
+QPC.Generators/obj/
+QPC.Generators/bin/
+QPC.Core/bin/
+QPC.Core/obj/
+QPC.Launcher/bin/
+QPC.Launcher/obj/
+QPC.Parser/bin/
+QPC.Parser/obj/
