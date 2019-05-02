@@ -1,0 +1,3 @@
+[submodule "QPC.Parser"]
+	path = QPC.Parser
+	url = https://github.com/quiverteam/qpc-parser
